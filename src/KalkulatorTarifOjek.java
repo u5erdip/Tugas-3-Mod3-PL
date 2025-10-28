@@ -64,7 +64,7 @@ public class KalkulatorTarifOjek {
         System.out.println("=================================");
         System.out.println("TOTAL TARIF     : Rp " + String.format("%.0f", result.totalTarifPerjalanan()));
         System.out.println("=================================");
-
+        System.out.println();
         input.close();
     }
 
